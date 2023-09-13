@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+.Mimi {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.modi {
+    color: #ffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: rgb(124, 11, 119);
+}
+
+.divcenter {
+    text-align: center;
+}
+
+.feyidiv {
+    display: flex;
+    margin-top: 30px;
+}
+
+.pmodi {
+    text-align: center;
+    color: white;
+}
+
+.rayyandiv {
+    font-size: 3rem;
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+    /* height: 415px; */
+}
+
+.monjesec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 65vh;
+}
+
+.sewadiv {
+    background-image: url(./Image/amotekImagine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+.rayyandiv p {
+    font-size: 50px;
+    color: black;
+}
+
+h4 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: -5px;
+    margin-left: 250px;
+    padding: 30px;
+}
+
+.Amotek {
+    display: flex;
+    gap: 15px;
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+
+.Amotek p {
+    color: white;
+    padding: 2px;
+    margin-top: -20px;
+}
+
+.bukksdiv1 {
+    margin-inline-end: 2px;
+}
+
+.bukksdiv2 {
+    margin-inline-start: 2px;
+}
+
+.columbiadiv p {
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.amomag {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+hr {
+    width: 60%;
+    margin: 0% auto;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 550px) and (max-width 1000px){
+    .feyidiv{
+        display: none;
+    }
+
+    #amomag{
+        width: 400px;
+    }
+}
+
+
+
+
